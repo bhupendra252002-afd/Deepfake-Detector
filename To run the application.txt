@@ -1,0 +1,31 @@
+1. Start the Backend (FastAPI)
+Since your backend has a virtual environment (venv) set up, you should activate it before running the server.
+
+Open a terminal and run the following commands:
+
+powershell :-
+
+
+cd c:\Users\bhupe\Desktop\Project_Antigravity\backend							# Navigate to the backend directory
+
+.\venv\Scripts\activate														# Activate the virtual environment
+
+uvicorn main:app --reload														# Start the FastAPI server
+
+
+The backend server should now be running (typically the API is exposed at http://127.0.0.1:8000). Make sure you leave this terminal open.
+
+2. Start the Frontend (React + Vite)
+Open a new terminal window and run the following commands:
+
+powershell:-
+
+
+cd c:\Users\bhupe\Desktop\Project_Antigravity\frontend							# Navigate to the frontend directory
+
+npm run dev																	# Start the development server
+	
+
+Vite will start up very quickly. Usually, your frontend will automatically be available at http://localhost:5173.
+
+Once both servers are running, you can open your browser to the local frontend address and begin interacting with your project! Let me know if you run into any errors or need help testing specific features.
